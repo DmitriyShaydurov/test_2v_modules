@@ -1,0 +1,20 @@
+{
+    "name": "shaydurov/v2_vodules_test",
+    "description": "Test task for M2 modules",
+    "autoload": {
+        "psr-4": {
+            "test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Shaydurov",
+            "email": "dmitriy.shaydurov@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/cache": "^3.0",
+        "psr/log": "^3.0",
+        "php": "^8.1"
+    }
+}
